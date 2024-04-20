@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function gettingObj(_a) {
-    var string = _a.name;
-    return {};
+function gettingOBJ(_a) {
+    var name = _a.name, isPaid = _a.isPaid;
+    return 12;
 }
-gettingObj({ name: "ayush" });
+gettingOBJ({ name: "ayush", isPaid: false });
